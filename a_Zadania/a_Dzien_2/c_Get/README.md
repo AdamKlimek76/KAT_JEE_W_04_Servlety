@@ -42,8 +42,7 @@ W projekcie stwórz servlet `Get4`, dostępny pod adresem **/get4**,
  oraz stronę HTML `get4.html`, w której umieścisz link do servletu z dodatkowymi parametrami:    
 ``` ?company=coderslab&learn=php&learn=java&learn=ruby&learn=python ```   
 
-Po kliknięciu w link - ma nastąpić przekierowanie do servletu, który wyświetli informacje pobrane z parametrów w następujący sposób:
-````
+Po kliknięciu w link - ma nastąpić przekierowanie do servletu, który wyświetli informacje pobrane z parametrów w następujący sposób:`
 company:
   - coderslab
 learn:

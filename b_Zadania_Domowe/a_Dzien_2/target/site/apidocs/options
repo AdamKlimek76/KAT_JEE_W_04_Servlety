@@ -1,0 +1,24 @@
+-classpath
+'/home/adam/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/home/adam/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar'
+-encoding
+'UTF-8'
+-protected
+-sourcepath
+'/home/adam/Pulpit/Modul03/KAT_JEE_W_04_Servlety/b_Zadania_Domowe/a_Dzien_2/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2020. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'/home/adam/Pulpit/Modul03/KAT_JEE_W_04_Servlety/b_Zadania_Domowe/a_Dzien_2/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'jee-servlet 1.0-SNAPSHOT API'
+-linkoffline
+'http://docs.oracle.com/javase/8/docs/api' '/home/adam/Pulpit/Modul03/KAT_JEE_W_04_Servlety/b_Zadania_Domowe/a_Dzien_2/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'jee-servlet 1.0-SNAPSHOT API'

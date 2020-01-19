@@ -1,0 +1,1 @@
+/usr/lib/jvm/java-12-oracle/bin/javadoc @options @argfile
