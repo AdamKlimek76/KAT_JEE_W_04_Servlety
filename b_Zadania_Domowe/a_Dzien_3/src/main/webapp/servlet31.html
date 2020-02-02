@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="servlet31" method="POST">
+    <label>
+        Wpisz kwotę:
+        <input type="number" min="0.00" step="0.01" name="cash"><br>
+    </label>
+    Przelicz walutę:<br>
+    <input type="radio" name="payment" value="eurNaUsd" checked>EUR → USD<br>
+    <input type="radio" name="payment" value="usdNaEur">USD → EUR<br>
+    <input type="radio" name="payment" value="eurNaPln">EUR → PLN<br>
+    <input type="radio" name="payment" value="plnNaEur">PLN → EUR<br>
+    <input type="radio" name="payment" value="usdNaPln">USD → PLN<br>
+    <input type="radio" name="payment" value="plnNaUsd">PLN → USD<br>
+    <input type="submit">
+</form>
+</body>
+</html>

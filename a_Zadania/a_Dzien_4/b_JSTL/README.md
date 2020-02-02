@@ -26,7 +26,6 @@ W projekcie stwórz servlet `Mvc12` dostępny pod adresem **/mvc12** ,
 2. W widoku wyświetl  wszystkie liczby  ```start``` do ```end```. 
 
 -----------------------------------------------------------------------------
-
 ### Zadania rozwiązywane samodzielnie:
 
 #### Zadanie 3
@@ -38,7 +37,6 @@ W projekcie stwórz servlet `Mvc13` dostępny pod adresem **/mvc13**.
 3. Odbierz dane i na ich podstawie stwórz obiekt klasy **Book**.
 4. Przekaż obiekt do widoku `result.jsp`. 
 5. Wyświetl właściwości nowo dodanego obiektu: `title`, `author`, `isbn`.
-
 
 #### Zadanie 4
 

@@ -27,7 +27,7 @@ public class Servlet242 extends HttpServlet {
             product = (product.replaceAll(";", " - ") + " PLN");
             response.getWriter().println(product);
         } else {
-            System.out.println("Procuct not found.");
+            System.out.println("Product not found.");
         }
 
     }

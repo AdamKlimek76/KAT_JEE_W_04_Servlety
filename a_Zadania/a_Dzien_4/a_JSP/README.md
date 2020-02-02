@@ -26,8 +26,7 @@ Przykładowa zawartość pliku `header.jsp`:
   <h1>Most important heading here</h1>
 </header>
 ````  
-  
-Przykładowa zawartość pliku `footer.jsp`:  
+  Przykładowa zawartość pliku `footer.jsp`:  
 
 ````html
 <footer>
@@ -35,18 +34,15 @@ Przykładowa zawartość pliku `footer.jsp`:
   someone@example.com</a>.</p>
 </footer>
 ````
-
 -------------------------------------------------------------------------------
 
 ### Zadania rozwiązywane samodzielnie:
 
 #### Zadanie 3
-
 W projekcie stwórz stronę `third.jsp`. 
 Następnie pobierz z GET wartości `a` i `b`, następnie je wyświetl, w przypadku braku parametrów wyświetl napis **brak**.
 
 #### Zadanie 4
-
 1. W dowolnym servlecie utwórz ciasteczko o nazwie **foo** oraz wartości **bar**.
 3. W pliku `fourth.jsp` wyświetl wartość utworzonego ciasteczka.
 

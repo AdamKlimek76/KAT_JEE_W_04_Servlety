@@ -5,7 +5,11 @@
       <module fileurl="file://$PROJECT_DIR$/a_Zadania/a_Dzien_2/c_Get/Get.iml" filepath="$PROJECT_DIR$/a_Zadania/a_Dzien_2/c_Get/Get.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/KAT_JEE_W_04_Servlety.iml" filepath="$PROJECT_DIR$/.idea/KAT_JEE_W_04_Servlety.iml" />
       <module fileurl="file://$PROJECT_DIR$/b_Zadania_Domowe/a_Dzien_2/jeeservlet.iml" filepath="$PROJECT_DIR$/b_Zadania_Domowe/a_Dzien_2/jeeservlet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/b_Zadania_Domowe/a_Dzien_3/jeeservlet3.iml" filepath="$PROJECT_DIR$/b_Zadania_Domowe/a_Dzien_3/jeeservlet3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/a_Zadania/a_Dzien_4/jspdzien4.iml" filepath="$PROJECT_DIR$/a_Zadania/a_Dzien_4/jspdzien4.iml" />
       <module fileurl="file://$PROJECT_DIR$/a_Zadania/a_Dzien_2/b_Servlety/servletJEE.iml" filepath="$PROJECT_DIR$/a_Zadania/a_Dzien_2/b_Servlety/servletJEE.iml" />
+      <module fileurl="file://$PROJECT_DIR$/a_Zadania/a_Dzien_3/webappdzien3.iml" filepath="$PROJECT_DIR$/a_Zadania/a_Dzien_3/webappdzien3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/b_Zadania_Domowe/a_Dzien_4/webappdzien4.iml" filepath="$PROJECT_DIR$/b_Zadania_Domowe/a_Dzien_4/webappdzien4.iml" />
     </modules>
   </component>
 </project>

@@ -46,7 +46,7 @@ W projekcie stwórz  `Session3Add` dostępny pod adresem `/addToSession` oraz se
             <input type="text" name="value">
         </label>
         <input type="submit">
-    </form>
+    </form>	
     ```
 2. Dodaj do servletu `Session3Add` funkcjonalność, 
 która po zatwierdzeniu formularza metodą POST doda nową zmienną sesyjną o podanej nazwie i wartości. 
