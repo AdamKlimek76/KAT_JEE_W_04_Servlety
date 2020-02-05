@@ -14,6 +14,7 @@ import java.time.ZonedDateTime;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.GregorianCalendar;
+import java.util.List;
 
 @WebServlet("/newsletter")
 public class Newsletter extends HttpServlet {
@@ -23,12 +24,20 @@ public class Newsletter extends HttpServlet {
         response.addCookie(cookie);
         String name = request.getParameter("name");
         String email = request.getParameter("email");
-        User user = new User(1, name, email);
+        saveUser(name, email);
         UserDao userDao = new UserDao();
-        userDao.create(user);
+        request.setAttribute("userList", userDao.findAll());
 
         getServletContext().getRequestDispatcher("/newsletter.jsp")
                 .forward(request, response);
+    }
+
+
+
+    private void saveUser(String name, String email) {
+        User user = new User(1, name, email);
+        UserDao userDao = new UserDao();
+        User user1 = userDao.create(user);
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

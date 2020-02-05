@@ -11,16 +11,20 @@ import java.sql.SQLException;
 public class DBUtil {
 
     private static DataSource dataSource;
-    public static Connection getConnection() throws SQLException {
-        return getInstance().getConnection();
+
+    public static Connection getConnection() throws SQLException{
+            return getInstance().getConnection();
     }
+
     private static DataSource getInstance() {
         if (dataSource == null) {
             try {
                 Context initContext = new InitialContext();
-                Context envContext = (Context)initContext.lookup("java:/comp/env");
-                dataSource = (DataSource)envContext.lookup("jdbc/newsletter_users");
-            } catch (NamingException e) { e.printStackTrace(); }
+                Context envContext = (Context) initContext.lookup("java:/comp/env");
+                dataSource = (DataSource) envContext.lookup("jdbc/newsletter_users");
+            } catch (NamingException e) {
+                e.printStackTrace();
+            }
         }
         return dataSource;
     }
