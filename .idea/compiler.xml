@@ -6,12 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="webappdzien4" />
-        <module name="jeeservlet" />
         <module name="webappdzien3" />
-        <module name="jeeservlet3" />
-        <module name="Get" />
+        <module name="webappdzien4" />
         <module name="servletJEE" />
+        <module name="Get" />
+        <module name="jeeservlet" />
+        <module name="jeeservlet3" />
         <module name="jspdzien4" />
       </profile>
     </annotationProcessing>
@@ -22,7 +22,7 @@
       <module name="jspdzien4" target="1.8" />
       <module name="servletJEE" target="1.8" />
       <module name="webappdzien3" target="1.8" />
-      <module name="webappdzien4" target="1.5" />
+      <module name="webappdzien4" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

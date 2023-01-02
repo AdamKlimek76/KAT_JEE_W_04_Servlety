@@ -7,6 +7,7 @@
     <file type="web" url="file://$PROJECT_DIR$/a_Zadania/a_Dzien_4" />
     <file type="web" url="file://$PROJECT_DIR$/b_Zadania_Domowe/a_Dzien_2" />
     <file type="web" url="file://$PROJECT_DIR$/b_Zadania_Domowe/a_Dzien_3" />
+    <file type="web" url="file://$PROJECT_DIR$/b_Zadania_Domowe/a_Dzien_4" />
   </component>
   <component name="JavaScriptSettings">
     <option name="languageLevel" value="ES6" />
@@ -24,7 +25,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="false" project-jdk-name="11" project-jdk-type="JavaSDK">
-    <output url="file:///tmp" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$APPLICATION_HOME_DIR$/jbr/bin/tmp" />
   </component>
 </project>
